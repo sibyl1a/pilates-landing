@@ -539,12 +539,12 @@ table{
 #contacts{
     width: 75vw;
     background-color: transparent;
-    padding-top:70px;
     padding-bottom:70px;
     text-align:center;
     margin:auto;
     position:relative;
     font-family: Montserrat;
+    margin-bottom:150px;
 }
 #contacts h1:not(#contact-us h1){
     font-size: 42px;
@@ -588,4 +588,17 @@ hr{
 }
 #contacts-info p{
     margin-bottom:30px;
+}
+footer {
+    padding: 2px 0;
+    display: flex; 
+    justify-content: center; 
+    gap: 20px;
+    background-color: #EE3B59;
+    font-family:Montserrat;
+    font-size:14px;
+  }
+  footer p {
+    color: white !important;
+    margin: 5px; 
 }
